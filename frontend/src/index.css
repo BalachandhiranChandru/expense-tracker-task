@@ -1,0 +1,24 @@
+
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f1f5f9;
+  color: #334155;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+body.dark ::-webkit-scrollbar-track { background: #1e293b; }
+body.dark ::-webkit-scrollbar-thumb { background: #475569; }
+
+input, select, button { font-family: inherit; }
